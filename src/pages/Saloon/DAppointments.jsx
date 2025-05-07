@@ -95,7 +95,7 @@ const DAppointments = () => {
 
       {/* Worker Fees Summary */}
       <div className="bg-white p-4 rounded mb-5">
-        <p className="text-lg font-medium mb-3">Worker Fees Summary</p>
+        <p className="text-lg font-medium mb-3">Fees Summary</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {Object.entries(workerFees).map(([worker, fee], index) => (
             <div key={index} className="flex justify-between items-center p-3 bg-gray-50 rounded shadow">
@@ -108,7 +108,7 @@ const DAppointments = () => {
 
       {/* Total Income */}
       <div className="bg-white p-4 rounded mb-5">
-        <p className="text-lg font-medium mb-3">Total Shop Income</p>
+        <p className="text-lg font-medium mb-3">Total Income</p>
         <p className="font-semibold">{currency}{totalIncome}</p>
       </div>
 
